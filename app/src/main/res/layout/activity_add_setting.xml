@@ -6,10 +6,10 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="설정"
         android:textSize="40sp"
@@ -22,37 +22,46 @@
 
         <Button
             android:id="@+id/btn_textSize"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
+            android:backgroundTint="#D1D0D0"
             android:text="글자 크기"
+            android:textColor="#000000"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/btn_soundService"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
+            android:backgroundTint="#D1D0D0"
             android:text="음성 안내 여부"
+            android:textColor="#000000"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/btn_appInfo"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
+            android:backgroundTint="#D1D0D0"
             android:text="어플리케이션 정보"
+            android:textColor="#000000"
             android:textSize="30sp" />
 
 
         <TextView
-            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="30dp"
             android:gravity="center"
             android:text=" "
             android:textSize="40sp"

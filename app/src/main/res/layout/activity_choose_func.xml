@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="음성 안내 여부"
+        android:text="기능을 선택하세요."
         android:textSize="40sp"
         android:textStyle="bold" />
 
@@ -23,29 +23,38 @@
 
         <Button
             android:id="@+id/btn_voiceTrue"
-            android:layout_marginTop="30dp"
             android:layout_width="300dp"
-            android:layout_height="100dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
-            android:layout_weight="1"
-            android:backgroundTint="#D1D0D0"
-            android:drawableTop="@drawable/soundtrueimage"
-            android:text="사용함"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#E8BABA"
+            android:text="공부해요"
             android:textColor="#000000"
-            android:textSize="30sp" />
+            android:textSize="50sp" />
 
         <Button
             android:id="@+id/btn_voiceFalse"
-            android:layout_marginTop="30dp"
             android:layout_width="300dp"
-            android:layout_height="100dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
-            android:layout_weight="1"
-            android:backgroundTint="#D1D0D0"
-            android:drawableTop="@drawable/soundfalseimage"
-            android:text="사용안함"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#9595ED"
+            android:text="따라해요"
             android:textColor="#000000"
-            android:textSize="30sp" />
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/settingcogwheel"
+            android:text="설정"
+            android:textColor="#000000"
+            android:textSize="20sp" />
 
 
     </LinearLayout>

@@ -25,7 +25,9 @@
             android:layout_height="104dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:backgroundTint="#FFF27E"
             android:text="카페"
+            android:textColor="#000000"
             android:textSize="30sp" />
 
         <Button
@@ -34,7 +36,9 @@
             android:layout_height="104dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:backgroundTint="#FFF27E"
             android:text="음식점"
+            android:textColor="#000000"
             android:textSize="30sp" />
 
         <Button
@@ -43,7 +47,10 @@
             android:layout_height="104dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:backgroundTint="#FFF27E"
             android:text="영화관"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="30sp" />
 
         <Button
@@ -52,18 +59,24 @@
             android:layout_height="104dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:backgroundTint="#FFF27E"
             android:text="마트"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/btn_setting"
             android:layout_width="100dp"
-            android:layout_height="80dp"
+            android:layout_height="100dp"
             android:layout_gravity="right"
             android:layout_marginTop="15dp"
             android:layout_marginRight="30dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/settingcogwheel"
             android:text="설정"
-            android:textSize="30sp" />
+            android:textColor="#000000"
+            android:textSize="20sp" />
     </LinearLayout>
 
 </LinearLayout>

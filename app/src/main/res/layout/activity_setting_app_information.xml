@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="음성 안내 여부"
+        android:text="어플리케이션 정보"
         android:textSize="40sp"
         android:textStyle="bold" />
 
@@ -21,13 +21,26 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="우하핳핫"
-            android:textSize="40sp" />
+            android:text="내손안에 키오스크"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="made by\n임희나\n천세은\n황성원\n\nKHU\ndesignthinking202"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
 
 
 
