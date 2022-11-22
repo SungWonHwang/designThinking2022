@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="외국어 사전111"
+            android:text="외국어 사전"
             android:textStyle="bold"
             android:textSize="45dp" />
 
