@@ -3,7 +3,7 @@
 <item
     android:id="@+id/nav_video"
     android:title="도움 영상"
-    android:icon="@drawable/settingcogwheel"/>
+    android:icon="@drawable/video_24"/>
     <item
         android:id="@+id/nav_settings"
         android:title="설정"
@@ -11,9 +11,9 @@
     <item
         android:id="@+id/nav_dictionary"
         android:title="외국어 사전"
-        android:icon="@drawable/settingcogwheel"/>
+        android:icon="@drawable/book_24"/>
     <item
         android:id="@+id/nav_back"
         android:title="뒤로 가기"
-        android:icon="@drawable/settingcogwheel"/>
+        android:icon="@drawable/back_24"/>
 </menu>
