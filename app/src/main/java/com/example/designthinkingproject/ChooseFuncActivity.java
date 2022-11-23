@@ -19,6 +19,15 @@ public class ChooseFuncActivity extends AppCompatActivity {
         binding = ActivityChooseFuncBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot()); // 2
 
+        //btnStudywithme 연결 버튼
+        binding.btnStudywithme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ChooseFuncActivity.this, StudyMac1Activity.class);
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
 
         // btnSetting 연결
         binding.btnSetting.setOnClickListener(new View.OnClickListener() {
