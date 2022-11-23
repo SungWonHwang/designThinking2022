@@ -8,7 +8,7 @@ import android.view.View;
 
 import com.example.designthinkingproject.databinding.ActivityChooseCafeBinding;
 
-public class ChooseCafeActivity extends AppCompatActivity {
+public class ChooseCafeActivity extends MyBaseActivity {
 
     private ActivityChooseCafeBinding binding;
 

@@ -9,7 +9,7 @@ import android.view.View;
 import com.example.designthinkingproject.databinding.ActivityChooseFuncBinding;
 import com.example.designthinkingproject.databinding.ActivityMainBinding;
 
-public class ChooseFuncActivity extends AppCompatActivity {
+public class ChooseFuncActivity extends MyBaseActivity {
 
     private ActivityChooseFuncBinding binding;
 

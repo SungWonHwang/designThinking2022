@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.example.designthinkingproject.databinding.ActivityAddSettingBinding;
 
-public class AddSettingActivity extends AppCompatActivity {
+public class AddSettingActivity extends MyBaseActivity {
 
     private ActivityAddSettingBinding binding;
 

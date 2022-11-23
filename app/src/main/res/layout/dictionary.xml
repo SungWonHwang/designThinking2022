@@ -17,7 +17,7 @@
             android:text="키오스크 이해를 돕는"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView_dictionary"
@@ -26,7 +26,7 @@
             android:gravity="center"
             android:text="외국어 사전"
             android:textStyle="bold"
-            android:textSize="45dp" />
+            android:textSize="45sp" />
 
 
 
@@ -44,7 +44,7 @@
                     android:id="@+id/textView1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="28dp"
+                    android:textSize="28sp"
                     android:layout_marginLeft="20dp"
                     android:textStyle="bold"
                     android:layout_marginTop="45dp"
@@ -55,7 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:textSize="22dp"
+                    android:textSize="22sp"
                     android:text="포장해서 가져가기" />
 
                 <TextView
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="45dp"
-                    android:textSize="28dp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     android:text="사이드메뉴" />
 
@@ -73,7 +73,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:textSize="22dp"
+                    android:textSize="22sp"
                     android:text="감자 튀김과 같은 곁들이 메뉴" />
 
                 <TextView
@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="45dp"
-                    android:textSize="28dp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     android:text="슈림프" />
 
@@ -91,7 +91,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:textSize="22dp"
+                    android:textSize="22sp"
                     android:text="새우" />
 
                 <TextView
@@ -100,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="45dp"
-                    android:textSize="28dp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     android:text="프라푸치노" />
 
@@ -109,7 +109,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:textSize="22dp"
+                    android:textSize="22sp"
                     android:text="얼음을 갈아 만든 시원한 음료" />
 
                 <TextView
@@ -118,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="45dp"
-                    android:textSize="28dp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     android:text="말차라떼" />
 
@@ -127,7 +127,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:textSize="22dp"
+                    android:textSize="22sp"
                     android:text="녹차 분말과 우유를 섞은 음료" />
 
                 <TextView
@@ -136,7 +136,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="45dp"
-                    android:textSize="28dp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     android:text="스파이시" />
 
@@ -145,7 +145,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:textSize="22dp"
+                    android:textSize="22sp"
                     android:text="매운, 매콤한, 양념이 강한" />
 
                 <TextView
@@ -154,7 +154,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="45dp"
-                    android:textSize="28dp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     android:text="더블" />
 
@@ -163,7 +163,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:textSize="22dp"
+                    android:textSize="22sp"
                     android:text="2배의" />
 
                 <TextView
@@ -172,7 +172,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="45dp"
-                    android:textSize="28dp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     android:text="스무디" />
 
@@ -181,7 +181,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:textSize="22dp"
+                    android:textSize="22sp"
                     android:text="신선한 과일을 얼려서 갈아 만든 음료" />
 
                 <TextView
@@ -190,7 +190,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="45dp"
-                    android:textSize="28dp"
+                    android:textSize="28sp"
                     android:textStyle="bold"
                     android:text="크리스피" />
 
@@ -199,7 +199,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:textSize="22dp"
+                    android:textSize="22sp"
                     android:text="바삭한" />
             </LinearLayout>
 
@@ -214,7 +214,7 @@
             android:layout_gravity="center"
             android:backgroundTint="@color/black"
             android:layout_marginBottom="20dp"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:text="닫기" />
     </LinearLayout>
 

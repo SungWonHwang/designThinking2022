@@ -9,7 +9,7 @@ import android.view.View;
 import com.example.designthinkingproject.databinding.ActivityChooseMartBinding;
 import com.example.designthinkingproject.databinding.ActivityChooseMovieBinding;
 
-public class ChooseMovieActivity extends AppCompatActivity {
+public class ChooseMovieActivity extends MyBaseActivity {
 
     private ActivityChooseMovieBinding binding;
 

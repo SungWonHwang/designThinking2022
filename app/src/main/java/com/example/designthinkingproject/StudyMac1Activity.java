@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class StudyMac1Activity extends AppCompatActivity {
+public class StudyMac1Activity extends MyBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
