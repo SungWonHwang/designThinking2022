@@ -6,16 +6,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import java.util.ArrayList;
 import java.util.Dictionary;
-import java.util.List;
 
 public class DictionaryAdapter extends ArrayAdapter<Dictionary> {
 
-    public DictionaryAdapter(Context context, int resource, List<Dictionary> dictionaryList)
+    public DictionaryAdapter(Context context, int resource, ArrayList<com.example.designthinkingproject.Dictionary> dictionaryList){
 
     super(context, resource, dictionaryList);
     }
@@ -26,10 +25,16 @@ public  View getView(int position, @Nullable View convertView, @NonNull ViewGrou
 
     Dictionary dictionary = getItem(position);
     if(convertView == null) {
-        convertView = LayoutInflater.from(getContext()).inflate(R.layout.dictionary, parent, false);
+        convertView = LayoutInflater.from(getContext()).inflate(R.layout.dictionary_item, parent, false);
     }
 
-    TextView tv = convertView.findViewById(R.id.)
+    TextView tv1 = convertView.findViewById(R.id.dic_name);
+    TextView tv2 = convertView.findViewById(R.id.dic_defi);
+
+    tv1.setText(dictionary.getName_1());
+    tv2.setText(dictionary.getName_2());
+
+    return convertView;
     }
 
 }
