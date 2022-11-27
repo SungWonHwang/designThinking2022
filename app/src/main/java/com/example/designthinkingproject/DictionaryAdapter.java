@@ -11,12 +11,13 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 import java.util.Dictionary;
+import java.util.List;
 
 public class DictionaryAdapter extends ArrayAdapter<Dictionary> {
 
-    public DictionaryAdapter(Context context1, ArrayList<com.example.designthinkingproject.Dictionary> dictionaryList){
+    public DictionaryAdapter(Context context, int resource, List<Dictionary> dictionaryList){
 
-    super(context1, dictionaryList);
+    super(context, resource, dictionaryList);
     }
 
 @NonNull

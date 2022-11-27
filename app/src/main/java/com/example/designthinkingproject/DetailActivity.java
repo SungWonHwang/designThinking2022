@@ -24,8 +24,8 @@ public class DetailActivity extends MyBaseActivity {
         TextView tv1 = findViewById(R.id.dic_datail_name);
         TextView tv2 = findViewById(R.id.dic_detail_defi);
 
-        tv1.setText(selectedDictionary.getName_1());
-        tv2.setText(selectedDictionary.getName_2());
+        tv1.setText(selectedDictionary.getId());
+        tv2.setText(selectedDictionary.getDefi());
     }
 
     private void getSelectedDictionary(){

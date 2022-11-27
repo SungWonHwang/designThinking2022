@@ -17,13 +17,13 @@ public class Navigation extends MyBaseActivity{
     private Frag1 frag1;
     private Frag2 frag2;
     private Frag3 frag3;
-    private Frag3 frag4;
+    private Frag4 frag4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_study_mac1);
 
         bottomNavigationView = findViewById(R.id.bottomNavi);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener()

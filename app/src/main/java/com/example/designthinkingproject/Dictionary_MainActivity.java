@@ -64,7 +64,7 @@ public class Dictionary_MainActivity extends MyBaseActivity {
     private void setUpList(){
         listView = findViewById(R.id.dictionary_listView);
 
-        DictionaryAdapter adapter = new DictionaryAdapter(getApplicationContext(),dictionaryList);
+        DictionaryAdapter adapter = new DictionaryAdapter(getApplicationContext(),0, dictionaryList);
         listView.setAdapter(adapter);
     }
 
