@@ -14,9 +14,9 @@ import java.util.Dictionary;
 
 public class DictionaryAdapter extends ArrayAdapter<Dictionary> {
 
-    public DictionaryAdapter(Context context, int resource, ArrayList<com.example.designthinkingproject.Dictionary> dictionaryList){
+    public DictionaryAdapter(Context context1, ArrayList<com.example.designthinkingproject.Dictionary> dictionaryList){
 
-    super(context, resource, dictionaryList);
+    super(context1, dictionaryList);
     }
 
 @NonNull
@@ -31,8 +31,8 @@ public  View getView(int position, @Nullable View convertView, @NonNull ViewGrou
     TextView tv1 = convertView.findViewById(R.id.dic_name);
     TextView tv2 = convertView.findViewById(R.id.dic_defi);
 
-    tv1.setText(dictionary.getName_1());
-    tv2.setText(dictionary.getName_2());
+    tv1.setText(dictionary.getName());
+    tv2.setText(dictionary.getDefi());
 
     return convertView;
     }
