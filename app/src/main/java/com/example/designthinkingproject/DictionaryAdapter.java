@@ -25,7 +25,9 @@ public class DictionaryAdapter extends ArrayAdapter<Dictionary> {
 public  View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent){
 
     Dictionary dictionary = getItem(position);
+
     if(convertView == null) {
+
         convertView = LayoutInflater.from(getContext()).inflate(R.layout.dictionary_item, parent, false);
     }
 
