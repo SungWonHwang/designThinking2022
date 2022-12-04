@@ -52,7 +52,6 @@
             android:backgroundTint="#FFF27E"
             android:text="영화관"
             android:textColor="#000000"
-            android:textStyle="bold"
             android:textSize="30sp" />
 
         <Button
