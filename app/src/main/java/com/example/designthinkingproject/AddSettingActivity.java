@@ -40,7 +40,7 @@ public class AddSettingActivity extends MyBaseActivity {
         binding.btnAppInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(AddSettingActivity.this, Dictionary.class);
+                Intent intent = new Intent(AddSettingActivity.this, SettingAppInformationActivity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
