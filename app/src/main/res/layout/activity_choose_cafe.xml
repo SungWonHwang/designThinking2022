@@ -29,7 +29,7 @@
             android:drawableTop="@drawable/drawable_resizecoffeebean"
             android:drawablePadding="30dp"
             android:paddingTop="30dp"
-            android:text="커피빈"
+            android:text="메가커피"
             android:textSize="30sp" />
 
         <Button

@@ -23,7 +23,7 @@ public class ChooseFuncActivity extends MyBaseActivity {
         binding.btnStudywithme.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ChooseFuncActivity.this, StudyMac1Activity.class);
+                Intent intent = new Intent(ChooseFuncActivity.this, StudyMega1.class);
                 startActivity(intent); //액티비티 이동
             }
         });

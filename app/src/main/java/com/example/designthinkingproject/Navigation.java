@@ -8,7 +8,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
+/*
 public class Navigation extends MyBaseActivity{
 
     private BottomNavigationView bottomNavigationView; // 바텀 네비게이션 뷰
@@ -87,3 +87,4 @@ public class Navigation extends MyBaseActivity{
         }
     }
 }
+*/
