@@ -2,5 +2,5 @@
     <item
         android:width="100dp"
         android:height="100dp"
-        android:drawable="@drawable/coffeebeanlogo2" />
+        android:drawable="@drawable/megalogo" />
 </layer-list>
