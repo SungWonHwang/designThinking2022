@@ -11,9 +11,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="카페를 고르세요."
+        android:text="추가 주문\n하시겠습니까?"
         android:textSize="40sp"
         android:textStyle="bold" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,32 +22,32 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_CoffeeBean"
+            android:id="@+id/btn_mega6_yes"
             android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:drawableTop="@drawable/drawable_resizecoffeebean"
-            android:drawablePadding="30dp"
+
+            android:backgroundTint="#D8D3FF"
             android:paddingTop="30dp"
-            android:text="메가커피"
+            android:text="네"
+            android:textColor="#000000"
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/btn_Hollys"
-            android:layout_marginTop="5dp"
+            android:id="@+id/btn_mega6_no"
+            android:layout_marginTop="10dp"
             android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:drawablePadding="30dp"
-            android:paddingTop="30dp"
-            android:drawableTop="@drawable/drawable_resizehollys"
-            android:text="할리스"
+            android:text="아니오"
+            android:backgroundTint="#D8D3FF"
+            android:textColor="#000000"
             android:textSize="30sp" />
 
         <TextView
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
