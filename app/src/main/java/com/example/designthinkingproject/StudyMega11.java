@@ -6,24 +6,24 @@ import android.view.View;
 
 
 
-import com.example.designthinkingproject.databinding.ActivityStudyMega6Binding;
+import com.example.designthinkingproject.databinding.ActivityStudyMega11Binding;
 
 
-public class StudyMega6 extends MyBaseActivity{
+public class StudyMega11 extends MyBaseActivity{
 
-    private ActivityStudyMega6Binding binding;
+    private ActivityStudyMega11Binding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityStudyMega6Binding.inflate(getLayoutInflater());
+        binding = ActivityStudyMega11Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot()); // 2
 
         //imgbtn_mega1 연결 버튼
-        binding.btnWhere.setOnClickListener(new View.OnClickListener() {
+        binding.btnMega11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StudyMega6.this, StudyMega7.class);
+                Intent intent = new Intent(StudyMega11.this, StudyMega12.class);
                 startActivity(intent); //액티비티 이동
             }
         });

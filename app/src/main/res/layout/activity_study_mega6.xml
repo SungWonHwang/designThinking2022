@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-
+    android:layout_height="match_parent"
+    tools:context=".StudyMega6">
     <Button
+        android:backgroundTint="#00ff0000"
+        android:textColor="@color/black"
         android:id="@+id/btn_where"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textSize="55sp"
+        android:textSize="40sp"
         android:gravity="center"
-        android:text="세번째! \n결제를\n 진행하세요" />
+        android:text="두번째! \n어디서 먹을지\n 선택하세요" />
 </androidx.constraintlayout.widget.ConstraintLayout>
