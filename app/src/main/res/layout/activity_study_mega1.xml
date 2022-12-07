@@ -6,71 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".StudyMega1">
 
+
+    <ImageButton
+        android:id="@+id/btnMega1"
+        android:layout_width="0dp"
+        android:layout_height="640dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mega1" />
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="34dp">
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        android:paddingBottom="0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMega1">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="595dp">
+        <Button
+            android:id="@+id/btn_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="도움 영상" />
 
-            <Button
-                android:id="@+id/btn_mega1"
-                android:layout_width="match_parent"
-                android:layout_height="600sp"
-                android:background="#00ff0000"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView_1"
-                app:layout_constraintTop_toTopOf="@+id/imageView_1"
-                tools:layout_editor_absoluteX="0dp" />
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="설정" />
 
-            <ImageView
-                android:id="@+id/imageView_1"
-                android:layout_width="match_parent"
-                android:layout_height="600sp"
-                app:srcCompat="@drawable/mega1" />
+        <Button
+            android:id="@+id/btn_dic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="외국어 사전" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="match_parent"
-            android:layout_height="50sp"
-            android:orientation="horizontal"
-            android:paddingBottom="50sp">
-
-            <Button
-                android:id="@+id/btn_video"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/purple_500"
-                android:text="도움 영상" />
-
-            <Button
-                android:id="@+id/btn_setting"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="설정" />
-
-            <Button
-                android:id="@+id/btn_dic"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="외국어 사전" />
-
-            <Button
-                android:id="@+id/btn_back"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="뒤로가기" />
-        </LinearLayout>
-
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="뒤로가기" />
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
