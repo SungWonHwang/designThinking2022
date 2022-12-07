@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="원하는 종류를 고르세요"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_mega3_EarlGrey"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#D8D3FF"
+            android:text="얼그레이"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_mega3_Chamomile"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#D8D3FF"
+            android:text="캐모마일"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_mega3_Mint"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#D8D3FF"
+            android:text="페퍼민트"
+            android:textColor="#000000"
+            android:textSize="30sp"  />
+
+        <Button
+            android:id="@+id/btn_mega3_Green"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#D8D3FF"
+            android:text="녹차"
+            android:textColor="#000000"
+            android:textSize="30sp"  />
+
+
+    </LinearLayout>
+
+</LinearLayout>

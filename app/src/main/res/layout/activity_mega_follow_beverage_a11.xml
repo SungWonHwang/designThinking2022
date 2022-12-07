@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--                        차가운, 얼음 갈은, 과자 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="원하는 음료를 고르세요"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="543dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_mega11_Pong"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="퐁크러쉬"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+
+            <Button
+                android:id="@+id/btn_mega11_Cookie"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="쿠키 프라페"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+
+            <Button
+                android:id="@+id/btn_mega11_Unicorn"
+                android:layout_width="230dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="유니콘 프라페"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega11_StrawberryCookie"
+                android:layout_width="260dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="딸기쿠키 프라페"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+

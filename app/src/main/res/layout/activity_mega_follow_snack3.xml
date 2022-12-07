@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--                 간식, 빵    -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="원하는 간식을 고르세요"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="543dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_mega3_HoneyBread"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="허니 브레드"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega3_PotatoBread"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="감자빵"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega3_CroqueMonsieur"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="크로크무슈"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega3_Hotdog"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="핫도그"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega3_MilkDou"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="밀크 도넛"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega3_ButterSalt"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="버터소금빵"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega3_Croissant"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="크루아상"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega3_Croffle"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="플레인\n크로플"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega3_IcecreamCroffle"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="아이스크림\n크로플"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_mega3_IceHoneyChoux"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D8D3FF"
+                android:text="아이스허니\n와앙슈"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+
