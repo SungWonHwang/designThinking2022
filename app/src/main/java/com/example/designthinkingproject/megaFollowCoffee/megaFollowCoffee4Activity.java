@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.designthinkingproject.databinding.ActivityMegaFollowCoffee4Binding;
+import com.example.designthinkingproject.megaFollowCoffee6Activity;
 
 public class megaFollowCoffee4Activity extends AppCompatActivity {
 
@@ -17,6 +18,7 @@ public class megaFollowCoffee4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMegaFollowCoffee4Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot()); // 2
+
 
         //btnMega4MilkTrue 연결 버튼
         binding.btnMega4MilkTrue.setOnClickListener(new View.OnClickListener() {
@@ -31,7 +33,7 @@ public class megaFollowCoffee4Activity extends AppCompatActivity {
         binding.btnMega4MilkFalse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollowCoffee4Activity.this, megaFollowCoffee5Activity.class);
+                Intent intent = new Intent(megaFollowCoffee4Activity.this, megaFollowCoffee6Activity.class);
                 startActivity(intent); //액티비티 이동
             }
         });

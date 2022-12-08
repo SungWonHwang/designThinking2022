@@ -18,9 +18,10 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+
         </activity>
         <activity
-            android:name=".megaFollowCoffee9Activity"
+            android:name=".megaFollowCoffee6Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
