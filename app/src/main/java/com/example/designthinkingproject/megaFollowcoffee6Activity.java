@@ -7,16 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee5Binding;
-import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee6Binding;
+import com.example.designthinkingproject.databinding.ActivityMegaFollow6extralorderBinding;
 
-public class megaFollowcoffee6Activity extends AppCompatActivity {
+public class megaFollowcoffee6Activity extends MyBaseActivity {
 
-    private ActivityMegaFollowcoffee6Binding binding;
+    private ActivityMegaFollow6extralorderBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMegaFollowcoffee6Binding.inflate(getLayoutInflater());
+        binding = ActivityMegaFollow6extralorderBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot()); // 2
 
         //btnMega6Yes 연결 버튼

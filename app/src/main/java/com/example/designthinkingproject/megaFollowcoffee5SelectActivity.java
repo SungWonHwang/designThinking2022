@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class megaFollowcoffee5SelectActivity extends AppCompatActivity {
+public class megaFollowcoffee5SelectActivity extends MyBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

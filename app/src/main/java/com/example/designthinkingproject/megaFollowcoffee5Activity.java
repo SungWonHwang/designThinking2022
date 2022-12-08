@@ -9,7 +9,7 @@ import android.view.View;
 import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee4Binding;
 import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee5Binding;
 
-public class megaFollowcoffee5Activity extends AppCompatActivity {
+public class megaFollowcoffee5Activity extends MyBaseActivity {
 
     private ActivityMegaFollowcoffee5Binding binding;
 
