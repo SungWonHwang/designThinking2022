@@ -5,13 +5,68 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StudyMega6">
+
     <Button
-        android:backgroundTint="#00ff0000"
-        android:textColor="@color/black"
         android:id="@+id/btn_where"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="40sp"
+        android:layout_width="0dp"
+        android:layout_height="490dp"
+        android:backgroundTint="#00ff0000"
         android:gravity="center"
-        android:text="두번째! \n어디서 먹을지\n 선택하세요" />
+        android:text="두번째! \n어디서 먹을지\n 선택하세요"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:paddingBottom="0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_where">
+
+        <Button
+            android:id="@+id/btn_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E8BABA"
+            android:text="영상"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E8BABA"
+            android:text="설정"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_dic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E8BABA"
+            android:text="사전"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E8BABA"
+            android:text="뒤로"
+            android:textColor="#000000" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

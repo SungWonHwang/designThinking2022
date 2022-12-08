@@ -29,5 +29,38 @@ public class StudyMega1 extends MyBaseActivity{
             }
         });
 
+        //btn_video 연결 버튼
+        binding.btnVideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(StudyMega1.this, StudyMega2.class);
+                startActivity(intent); //액티비티 이동
+            }
+        });
+        //btn_setting 연결 버튼
+        binding.btnSetting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(StudyMega1.this, AddSettingActivity.class);
+                startActivity(intent); //액티비티 이동
+            }
+        });
+        //btn_dic 연결 버튼
+        binding.btnDic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(StudyMega1.this, Dictionary.class);
+                startActivity(intent); //액티비티 이동
+            }
+        });
+        //btn_back 연결 버튼
+        binding.btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(StudyMega1.this, ChooseFuncActivity.class);
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
     }
 }

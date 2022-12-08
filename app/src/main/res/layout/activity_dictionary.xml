@@ -40,23 +40,7 @@
                 android:orientation="vertical">
 
 
-                <TextView
-                    android:id="@+id/textView1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="28sp"
-                    android:layout_marginLeft="20dp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="45dp"
-                    android:text="테이크아웃" />
 
-                <TextView
-                    android:id="@+id/textView1_1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="22sp"
-                    android:text="포장해서 가져가기" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -66,7 +50,7 @@
                     android:layout_marginTop="45dp"
                     android:textSize="28sp"
                     android:textStyle="bold"
-                    android:text="사이드메뉴" />
+                    android:text="라떼" />
 
                 <TextView
                     android:id="@+id/textView2_1"
@@ -74,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:textSize="22sp"
-                    android:text="감자 튀김과 같은 곁들이 메뉴" />
+                    android:text="우유를 넣은 커피의 일종" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -84,7 +68,7 @@
                     android:layout_marginTop="45dp"
                     android:textSize="28sp"
                     android:textStyle="bold"
-                    android:text="슈림프" />
+                    android:text="메가리카노" />
 
                 <TextView
                     android:id="@+id/textView3_1"
@@ -92,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:textSize="22sp"
-                    android:text="새우" />
+                    android:text="일반 아메리카노보다 큰 사이즈의 커피" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -138,7 +122,7 @@
                     android:layout_marginTop="45dp"
                     android:textSize="28sp"
                     android:textStyle="bold"
-                    android:text="스파이시" />
+                    android:text="샷" />
 
                 <TextView
                     android:id="@+id/textView6_1"
@@ -146,7 +130,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:textSize="22sp"
-                    android:text="매운, 매콤한, 양념이 강한" />
+                    android:text="에스프레소 1잔" />
 
                 <TextView
                     android:id="@+id/textView7"
@@ -156,7 +140,7 @@
                     android:layout_marginTop="45dp"
                     android:textSize="28sp"
                     android:textStyle="bold"
-                    android:text="더블" />
+                    android:text="프라페" />
 
                 <TextView
                     android:id="@+id/textView7_1"
@@ -164,7 +148,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:textSize="22sp"
-                    android:text="2배의" />
+                    android:text="얼음, 커피, 우유와 달콤한 재료들을 갈아 만든 음료" />
 
                 <TextView
                     android:id="@+id/textView8"
@@ -185,22 +169,24 @@
                     android:text="신선한 과일을 얼려서 갈아 만든 음료" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textView1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="45dp"
                     android:textSize="28sp"
+                    android:layout_marginLeft="20dp"
                     android:textStyle="bold"
-                    android:text="크리스피" />
+                    android:layout_marginTop="45dp"
+                    android:text="테이크아웃" />
 
                 <TextView
-                    android:id="@+id/textView9_1"
+                    android:id="@+id/textView1_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:textSize="22sp"
-                    android:text="바삭한" />
+                    android:text="포장해서 가져가기" />
+
+
             </LinearLayout>
 
 

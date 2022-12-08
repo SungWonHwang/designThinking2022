@@ -8,7 +8,11 @@ import android.view.View;
 
 import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee5Binding;
 
+<<<<<<< HEAD:app/src/main/java/com/example/designthinkingproject/megaFollowCoffee5Activity.java
 public class megaFollowCoffee5Activity extends AppCompatActivity {
+=======
+public class megaFollowcoffee5Activity extends MyBaseActivity {
+>>>>>>> origin/main:app/src/main/java/com/example/designthinkingproject/megaFollowcoffee5Activity.java
 
     private ActivityMegaFollowcoffee5Binding binding;
 

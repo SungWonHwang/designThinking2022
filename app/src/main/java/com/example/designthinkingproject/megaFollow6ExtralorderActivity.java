@@ -6,9 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+<<<<<<< HEAD:app/src/main/java/com/example/designthinkingproject/megaFollow6ExtralorderActivity.java
 import com.example.designthinkingproject.databinding.ActivityMegaFollow6extralorderBinding;
 
 public class megaFollow6ExtralorderActivity extends AppCompatActivity {
+=======
+import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee5Binding;
+import com.example.designthinkingproject.databinding.ActivityMegaFollow6extralorderBinding;
+
+public class megaFollowcoffee6Activity extends MyBaseActivity {
+>>>>>>> origin/main:app/src/main/java/com/example/designthinkingproject/megaFollowcoffee6Activity.java
 
     private ActivityMegaFollow6extralorderBinding binding;
 
