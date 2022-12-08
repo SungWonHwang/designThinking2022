@@ -6,12 +6,20 @@ import android.view.View;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+
+import com.example.designthinkingproject.databinding.ActivityDictionaryBinding;
+import com.example.designthinkingproject.databinding.ActivityStudyMega1Binding;
+
 public class Dictionary extends MyBaseActivity {
+
+    private ActivityDictionaryBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dictionary);
+        @NonNull ActivityDictionaryBinding binding = ActivityDictionaryBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot()); // 2
     }
 }
 
