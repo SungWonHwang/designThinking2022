@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.designthinkingproject.databinding.ActivityChooseFuncBinding;
 import com.example.designthinkingproject.databinding.ActivityMegaFollow1Binding;
 
 public class megaFollow1Activity extends AppCompatActivity {
@@ -22,7 +21,7 @@ public class megaFollow1Activity extends AppCompatActivity {
         binding.btnMegaCoffee.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollow1Activity.this, megaFollowcoffee2Activity.class);
+                Intent intent = new Intent(megaFollow1Activity.this, megaFollowCoffee2Activity.class);
                 startActivity(intent); //액티비티 이동
             }
         });

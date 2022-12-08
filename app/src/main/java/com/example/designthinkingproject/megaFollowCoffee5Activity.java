@@ -7,35 +7,35 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee5Binding;
-import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee6Binding;
 
-public class megaFollowcoffee6Activity extends AppCompatActivity {
+public class megaFollowCoffee5Activity extends AppCompatActivity {
 
-    private ActivityMegaFollowcoffee6Binding binding;
+    private ActivityMegaFollowcoffee5Binding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMegaFollowcoffee6Binding.inflate(getLayoutInflater());
+        binding = ActivityMegaFollowcoffee5Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot()); // 2
 
-        //btnMega6Yes 연결 버튼
-        binding.btnMega6Yes.setOnClickListener(new View.OnClickListener() {
+        //btnMega5 카페라떼 연결 버튼
+        binding.btnMega5CafeLatte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollowcoffee6Activity.this, megaFollow1Activity.class);
+                Intent intent = new Intent(megaFollowCoffee5Activity.this, megaFollow6ExtralorderActivity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
 
-        //btnMega6No 연결 버튼
-        binding.btnMega6No.setOnClickListener(new View.OnClickListener() {
+        //btnMega5 카페모카 연결 버튼
+        binding.btnMega5CafeMocha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollowcoffee6Activity.this, megaFollowcoffee7Activity.class);
+                Intent intent = new Intent(megaFollowCoffee5Activity.this, megaFollow6ExtralorderActivity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
+
 
 
     }

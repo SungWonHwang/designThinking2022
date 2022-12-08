@@ -6,10 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.designthinkingproject.databinding.ActivityMegaFollow1Binding;
 import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee2Binding;
 
-public class megaFollowcoffee2Activity extends AppCompatActivity {
+public class megaFollowCoffee2Activity extends AppCompatActivity {
 
     private ActivityMegaFollowcoffee2Binding binding;
 
@@ -23,7 +22,7 @@ public class megaFollowcoffee2Activity extends AppCompatActivity {
         binding.btnMega2General.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollowcoffee2Activity.this, megaFollowcoffee3Activity.class);
+                Intent intent = new Intent(megaFollowCoffee2Activity.this, megaFollowCoffee3Activity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
@@ -32,7 +31,7 @@ public class megaFollowcoffee2Activity extends AppCompatActivity {
         binding.btnMega2Dutch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollowcoffee2Activity.this, megaFollowcoffee3Activity.class);
+                Intent intent = new Intent(megaFollowCoffee2Activity.this, megaFollowCoffee3Activity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
@@ -41,7 +40,7 @@ public class megaFollowcoffee2Activity extends AppCompatActivity {
         binding.btnMega2Press.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollowcoffee2Activity.this, megaFollowcoffee3Activity.class);
+                Intent intent = new Intent(megaFollowCoffee2Activity.this, megaFollowCoffee3Activity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
