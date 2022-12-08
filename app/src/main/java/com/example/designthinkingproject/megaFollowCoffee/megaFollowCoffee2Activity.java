@@ -1,4 +1,4 @@
-package com.example.designthinkingproject;
+package com.example.designthinkingproject.megaFollowCoffee;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,20 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.designthinkingproject.databinding.ActivityMegaFollowcoffee2Binding;
+import com.example.designthinkingproject.databinding.ActivityMegaFollowCoffee2Binding;
 
-<<<<<<< HEAD:app/src/main/java/com/example/designthinkingproject/megaFollowCoffee2Activity.java
 public class megaFollowCoffee2Activity extends AppCompatActivity {
-=======
-public class megaFollowcoffee2Activity extends MyBaseActivity {
->>>>>>> origin/main:app/src/main/java/com/example/designthinkingproject/megaFollowcoffee2Activity.java
 
-    private ActivityMegaFollowcoffee2Binding binding;
+    private ActivityMegaFollowCoffee2Binding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMegaFollowcoffee2Binding.inflate(getLayoutInflater());
+        binding = ActivityMegaFollowCoffee2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot()); // 2
 
         //btnMega2General 연결 버튼

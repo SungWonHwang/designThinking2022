@@ -258,7 +258,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".megaFollowcoffee7Activity"
+            android:name=".megaFollow7placeActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -279,28 +279,28 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".megaFollowCoffee5Activity"
+            android:name=".megaFollowCoffee.megaFollowCoffee5Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".megaFollowCoffee4Activity"
+            android:name=".megaFollowCoffee.megaFollowCoffee4Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".megaFollowCoffee3Activity"
+            android:name=".megaFollowCoffee.megaFollowCoffee3Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".megaFollowCoffee2Activity"
+            android:name=".megaFollowCoffee.megaFollowCoffee2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
