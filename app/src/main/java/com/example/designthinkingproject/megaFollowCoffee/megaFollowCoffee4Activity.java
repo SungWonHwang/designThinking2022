@@ -13,6 +13,7 @@ public class megaFollowCoffee4Activity extends AppCompatActivity {
 
     private ActivityMegaFollowCoffee4Binding binding;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
