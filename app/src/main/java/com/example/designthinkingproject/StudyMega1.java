@@ -33,7 +33,7 @@ public class StudyMega1 extends MyBaseActivity{
         binding.btnVideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StudyMega1.this, StudyMega2.class);
+                Intent intent = new Intent(StudyMega1.this, megaVideoActivity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
