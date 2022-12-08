@@ -37,6 +37,15 @@ public class ChooseFuncActivity extends MyBaseActivity {
             }
         });
 
+        //btnFollowme 연결 버튼
+        binding.btnOrder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ChooseFuncActivity.this, megaFollow1Activity.class);
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
 
         // btnSetting 연결
         binding.btnSetting.setOnClickListener(new View.OnClickListener() {

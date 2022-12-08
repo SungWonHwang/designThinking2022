@@ -63,7 +63,6 @@
             android:backgroundTint="#FFF27E"
             android:text="마트"
             android:textColor="#000000"
-            android:textStyle="bold"
             android:textSize="30sp" />
 
 

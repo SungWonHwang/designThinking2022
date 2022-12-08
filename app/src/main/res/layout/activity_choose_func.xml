@@ -27,7 +27,7 @@
             android:layout_width="200dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="#E8BABA"
             android:text="공부해요"
             android:textColor="#000000"
@@ -38,9 +38,20 @@
             android:layout_width="200dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="#9595ED"
             android:text="따라해요"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#8CDAE1"
+            android:text="주문해요"
             android:textColor="#000000"
             android:textSize="40sp" />
 
@@ -49,13 +60,13 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="right"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="30dp"
             android:backgroundTint="#FFFFFF"
             android:drawableTop="@drawable/settingcogwheel"
             android:text="설정"
             android:textColor="#000000"
-            android:textSize="20sp" />
+            android:textSize="25sp" />
 
 
     </LinearLayout>

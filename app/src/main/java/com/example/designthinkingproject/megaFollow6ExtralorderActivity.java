@@ -16,7 +16,7 @@ public class megaFollow6ExtralorderActivity extends MyBaseActivity {
         binding = ActivityMegaFollow6extralorderBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot()); // 2
 
-/*
+
         //btnMega6Yes 연결 버튼
         binding.btnMega6Yes.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,11 +30,10 @@ public class megaFollow6ExtralorderActivity extends MyBaseActivity {
         binding.btnMega6No.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollowcoffee6Activity.this, megaFollowc.class);
+                Intent intent = new Intent(megaFollow6ExtralorderActivity.this, megaFollow7placeActivity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
-*/
 
     }
 }
