@@ -49,7 +49,7 @@ public class StudyMega1 extends MyBaseActivity{
         binding.btnDic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StudyMega1.this, DictionaryActivity.class);
+                Intent intent = new Intent(StudyMega1.this, MyDictionaryActivity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
