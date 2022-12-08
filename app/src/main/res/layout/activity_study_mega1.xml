@@ -10,7 +10,7 @@
     <ImageButton
         android:id="@+id/btnMega1"
         android:layout_width="0dp"
-        android:layout_height="640dp"
+        android:layout_height="490dp"
         android:layout_marginBottom="0dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -37,13 +37,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="도움 영상" />
+            android:backgroundTint="#E8BABA"
+            android:textColor="#000000"
+            android:text="영상" />
 
         <Button
             android:id="@+id/btn_setting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#E8BABA"
+            android:textColor="#000000"
             android:text="설정" />
 
         <Button
@@ -51,14 +55,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="외국어 사전" />
+            android:backgroundTint="#E8BABA"
+            android:textColor="#000000"
+            android:text="사전" />
 
         <Button
             android:id="@+id/btn_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="뒤로가기" />
+            android:backgroundTint="#E8BABA"
+            android:textColor="#000000"
+            android:text="뒤로" />
     </LinearLayout>
 
 

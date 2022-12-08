@@ -19,7 +19,7 @@ public class StudyMega3 extends MyBaseActivity{
         binding = ActivityStudyMega3Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot()); // 2
 
-        //imgbtn_mega1 연결 버튼
+        //imgbtn_mega3 연결 버튼
         binding.btnMega3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
