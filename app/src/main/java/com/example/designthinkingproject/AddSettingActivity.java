@@ -19,11 +19,11 @@ public class AddSettingActivity extends MyBaseActivity {
     // 액티비티가 종료될때.. 이곳을 실행함.
     @Override
     protected void onDestroy() {
-        super.onDestroy();
         if(mediaPlayer != null) {
             mediaPlayer.release();
             mediaPlayer = null;
         }
+        super.onDestroy();
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,7 @@ public class AddSettingActivity extends MyBaseActivity {
         if(voice){
         }
         else{
-            mediaPlayer = MediaPlayer.create(AddSettingActivity.this, R.raw.presound);
+            mediaPlayer = MediaPlayer.create(AddSettingActivity.this, R.raw.setting_sound);
             mediaPlayer.start();
         }
 

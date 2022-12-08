@@ -31,7 +31,7 @@ public class MyBaseActivity extends AppCompatActivity {
 
     public  void adjustFontScaleBig( Configuration configuration) {
 
-        configuration.fontScale = (float) 1.2;
+        configuration.fontScale = (float) 1.1;
         DisplayMetrics metrics = getResources().getDisplayMetrics();
         WindowManager wm = (WindowManager) getSystemService(WINDOW_SERVICE);
         wm.getDefaultDisplay().getMetrics(metrics);
