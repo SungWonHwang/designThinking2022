@@ -20,7 +20,7 @@ public class megaFollow7placeActivity extends MyBaseActivity {
         binding.btnMega7Here.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollow7placeActivity.this, megaFollow8QrActivity.class);
+                Intent intent = new Intent(megaFollow7placeActivity.this, megaFollow9SelectionEndActivity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
@@ -29,7 +29,7 @@ public class megaFollow7placeActivity extends MyBaseActivity {
         binding.btnMega7Togo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(megaFollow7placeActivity.this, megaFollow8QrActivity.class);
+                Intent intent = new Intent(megaFollow7placeActivity.this, megaFollow9SelectionEndActivity.class);
                 startActivity(intent); //액티비티 이동
             }
         });
