@@ -37,6 +37,15 @@ public class megaFollowCoffee5Activity extends AppCompatActivity {
             }
         });
 
+        //btnMega5 카페모카 연결 버튼
+        binding.btnMega5HazelnutLatte.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(megaFollowCoffee5Activity.this, megaFollow6ExtralorderActivity.class);
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
 
 
     }

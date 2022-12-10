@@ -28,5 +28,6 @@ public class megaLightCoffee7Activity extends AppCompatActivity {
                 startActivity(intent); //액티비티 이동
             }
         });
+
     }
 }
