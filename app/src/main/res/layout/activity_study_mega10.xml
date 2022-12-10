@@ -10,7 +10,7 @@
         android:layout_width="0dp"
         android:layout_height="230dp"
         android:layout_marginTop="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="150dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="0dp"
         android:orientation="horizontal"
         android:paddingBottom="0sp"

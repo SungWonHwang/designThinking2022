@@ -23,7 +23,7 @@ public class StudyMega12 extends MyBaseActivity{
         binding.btnMega12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StudyMega12.this, MainActivity.class);
+                Intent intent = new Intent(StudyMega12.this, megaLightCoffee10Activity.class);
                 startActivity(intent); //액티비티 이동
             }
         });

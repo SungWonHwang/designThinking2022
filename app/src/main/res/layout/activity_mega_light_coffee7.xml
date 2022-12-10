@@ -21,10 +21,10 @@
 
     <Button
         android:id="@+id/btnMega10"
-        android:layout_width="91dp"
-        android:layout_height="59dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginBottom="165dp"
+        android:layout_width="94dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginBottom="162dp"
         android:backgroundTint="#4DFFEB3B"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintLeft_toLeftOf="@+id/linearLayout"
