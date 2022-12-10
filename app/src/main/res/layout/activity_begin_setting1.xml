@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="글자 크기"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="잘 보이는 글자 크기를 선택해주세요."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_fontSmallSize"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#D1D0D0"
+            android:textColor="#000000"
+            android:text="작게"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_fontNormalSize"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#D1D0D0"
+            android:textColor="#000000"
+            android:text="보통"
+            android:textSize="42sp" />
+
+        <Button
+            android:id="@+id/btn_fontBigSize"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#D1D0D0"
+            android:textColor="#000000"
+            android:text="크게"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#B5B8F3"
+            android:text="다음으로"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
