@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StudyMega10">
-    <ImageButton
-        android:id="@+id/btnMega10"
+
+    <ImageView
+        android:id="@+id/imageMega10"
         android:layout_width="0dp"
         android:layout_height="230dp"
         android:layout_marginTop="100dp"
@@ -18,11 +19,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/mega10" />
 
+    <Button
+        android:id="@+id/btnMega10"
+        android:layout_width="91dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginBottom="165dp"
+        android:backgroundTint="#4DFFEB3B"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="0dp"
+        android:layout_marginTop="135dp"
         android:orientation="horizontal"
         android:paddingBottom="0sp"
         app:layout_constraintBottom_toBottomOf="parent"

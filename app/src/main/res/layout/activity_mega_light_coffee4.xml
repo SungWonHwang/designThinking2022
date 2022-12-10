@@ -4,19 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudyMega10">
-    <ImageButton
-        android:id="@+id/btnMega10"
+    tools:context=".StudyMega5">
+
+    <ImageView
+        android:id="@+id/imageMega5"
         android:layout_width="0dp"
-        android:layout_height="230dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_height="490dp"
+        android:layout_marginBottom="0dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mega10" />
+        app:srcCompat="@drawable/mega5" />
+
+    <Button
+        android:id="@+id/btnMega5"
+        android:layout_width="82dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#4DFFEB3B"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -29,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMega10">
+        app:layout_constraintTop_toBottomOf="@+id/btnMega5">
 
         <Button
             android:id="@+id/btn_video"

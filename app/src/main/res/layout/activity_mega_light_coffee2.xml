@@ -4,32 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudyMega10">
-    <ImageButton
-        android:id="@+id/btnMega10"
+    tools:context=".StudyMega3">
+
+    <ImageView
+        android:id="@+id/imageMega3"
         android:layout_width="0dp"
-        android:layout_height="230dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_height="490dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mega10" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mega3" />
+
+
+    <Button
+        android:id="@+id/btnMega3"
+        android:layout_width="59dp"
+        android:layout_height="129dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#4DFFEB3B"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
         android:orientation="horizontal"
         android:paddingBottom="0sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMega10">
+        app:layout_constraintTop_toBottomOf="@+id/btnMega3">
 
         <Button
             android:id="@+id/btn_video"
