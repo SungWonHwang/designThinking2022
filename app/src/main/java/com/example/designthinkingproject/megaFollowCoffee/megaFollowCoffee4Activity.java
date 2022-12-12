@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.designthinkingproject.databinding.ActivityMegaFollowCoffee4Binding;
-import com.example.designthinkingproject.megaFollowCoffee6Activity;
 
 public class megaFollowCoffee4Activity extends AppCompatActivity {
 

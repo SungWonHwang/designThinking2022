@@ -13,6 +13,27 @@
         android:theme="@style/Theme.DesignThinkingProject"
         tools:targetApi="31">
         <activity
+            android:name=".megaFollowBeverage.megaFollowBeverageA15Sweetpotato"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".megaFollowBeverage.megaFollowBeverageA14Cherrycoke"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".megaFollowCoffee.megaFollowCoffeeHazelnut"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".beginSetting2Activity"
             android:exported="false">
             <meta-data
@@ -125,21 +146,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".megaFollowCoffee6Activity"
+            android:name=".megaFollowCoffee.megaFollowCoffee6Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".megaFollowCoffee8Activity"
+            android:name=".megaFollowCoffee.megaFollowCoffee8Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".megaFollowCoffee7"
+            android:name=".megaFollowCoffee.megaFollowCoffee7"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -406,13 +427,6 @@
         </activity>
         <activity
             android:name=".megaFollowCoffee.megaFollowCoffee3Activity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".megaFollowCoffee.megaFollowCoffee2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

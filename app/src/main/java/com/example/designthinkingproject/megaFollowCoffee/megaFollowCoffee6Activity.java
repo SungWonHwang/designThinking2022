@@ -1,4 +1,4 @@
-package com.example.designthinkingproject;
+package com.example.designthinkingproject.megaFollowCoffee;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.designthinkingproject.databinding.ActivityMegaFollowCoffee6Binding;
+import com.example.designthinkingproject.megaFollow6ExtralorderActivity;
 
 public class megaFollowCoffee6Activity extends AppCompatActivity {
 

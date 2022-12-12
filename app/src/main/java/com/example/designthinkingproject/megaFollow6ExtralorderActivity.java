@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.designthinkingproject.databinding.ActivityMegaFollow6extralorderBinding;
+
 public class megaFollow6ExtralorderActivity extends MyBaseActivity {
     private ActivityMegaFollow6extralorderBinding binding;
 
