@@ -14,7 +14,7 @@ public class megaVideoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mega_video);
         VideoView videoView = (VideoView)findViewById(R.id.myMegaVideo);
-        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.prevideomega));
+        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.megafinalvideoreal));
         videoView.start();
         final MediaController mediaController =
                 new MediaController(this);
